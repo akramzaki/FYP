@@ -1,0 +1,20 @@
+<ion-view title="Driver">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        
+        <form class="list"></form>
+        <div style="text-align:center;">
+            <img src="img/GsyRDsfOSqaPzB8YGelq_driver.jpg" width="100%" height="auto">
+        </div>
+        <ion-list></ion-list>
+        <ion-list>
+            <ion-item>{{driver.name}}</ion-item>
+            <ion-item>{{driver.id}}</ion-item>
+            <ion-item class="range range-positive">
+                <input type="range" value="{{driver.ratings}}" min="0" max="100">
+            </ion-item>
+        </ion-list>
+        <div style="text-align:center;">
+        
+    </div>
+    </ion-content>
+</ion-view>

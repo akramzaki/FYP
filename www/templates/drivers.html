@@ -1,0 +1,7 @@
+<ion-view title="Drivers">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <ion-list></ion-list>
+        <form class="list"></form>
+        <a ng-repeat="driver in drivers" href="#/tab/drivers/{{$index}}" class="button button-stable button-block button-dark ">{{driver.name}}</a>
+    </ion-content>
+</ion-view>
